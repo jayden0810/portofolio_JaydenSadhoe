@@ -1,0 +1,132 @@
+header {
+    background-color: #004D90;
+    padding: 1vh 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+nav ul li {
+    margin: 0 15px; 
+}
+html {
+    scroll-behavior: smooth;
+}
+a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+body {
+    background-color: #C1F5F9;
+
+}
+.sectionmain {
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #48A5F6;
+    color: rgb(0, 0, 0);
+    padding: 50px 0;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sect {
+
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+}
+#section1 {
+
+    margin-top: 150px;
+
+}
+#section2 {
+    margin-top: 150px;
+
+}
+#section3 {
+    margin-top: 150px;
+
+}
+footer {
+    background-color: #004D90;
+    margin-top: 15vh;
+    padding: 5px -90px;
+    bottom: 0;
+    width: 100vw;
+    color: white;
+    height: 50vh;
+}
+
+/* Responsive Design */
+
+/* Tablet */
+@media only screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+    header {
+        height: 25vh;
+    }
+}
+
+/* Mobile */
+@media only screen and (max-width: 500px) {
+    #home {
+        font-size: 2rem;
+    }
+
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
