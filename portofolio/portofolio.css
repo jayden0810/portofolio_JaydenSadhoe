@@ -4,12 +4,13 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
-    color: white;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    color: rgb(255, 255, 255);
+ 
 }
 
 nav {
@@ -37,9 +38,11 @@ html {
     scroll-behavior: smooth;
     scroll-padding-top: 120px;
 }
-a{
+a {
+    color: rgb(255, 255, 255);
+}
+header a{
     font-size: 20px;
-    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 body {
@@ -51,7 +54,7 @@ body {
     text-align: center;
     border-radius: 50px;
     background-color: #48A5F6;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 50px 0;
     width: 90vw;
     margin-left: auto;
@@ -69,32 +72,58 @@ body {
     margin-right: auto;
 }
 .sect {
-
     flex-direction: row;
     justify-content: space-around;
     display: flex;
     align-items: center;
-
 }
 #section1 {
 
     margin-top: 150px;  
     display: grid;
     grid-template-columns: none auto auto;
+    color: rgb(0, 0, 0);
+    text-shadow:
+        -1px -1px 0 #623bff,
+        1px -1px 0 #623bff,
+        -1px  1px 0 #623bff,
+        1px  1px 0 #3a0bf4,
+    font-size: 1.2rem;
 
 }
 #section2 {
     margin-top: 150px;
     display: grid;
     grid-template-columns: none auto auto;
+    color: rgb(0, 0, 0);
+    text-shadow:
+        -1px -1px 0 #623bff,
+        1px -1px 0 #623bff,
+        -1px  1px 0 #623bff,
+        1px  1px 0 #3a0bf4,
+    font-size: 1.2rem;
 }
 #section3 {
     margin-top: 150px;
     display: grid;
     grid-template-columns: none auto auto;
+    color: rgb(0, 0, 0);
+    text-shadow:
+        -1px -1px 0 #623bff,
+        1px -1px 0 #623bff,
+        -1px  1px 0 #623bff,
+        1px  1px 0 #3a0bf4,
+    font-size: 1.2rem;
 }
 #section4 {
 
+}
+.proj {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 footer {
     background-color: #004D90;
