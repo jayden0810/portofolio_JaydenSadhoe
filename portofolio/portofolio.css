@@ -162,7 +162,28 @@ footer {
     #home {
         font-size: 2rem;
     }
-
+img{
+        width: 100%;
+        height: auto;
+    }
+    header {
+        flex-direction: column;
+        text-align: center;
+        height: 20vh;
+    }
+    nav h1 {
+        font-size: 1.2rem;
+    }
+    nav ul {
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+    .sectionmain, .sectionfooter {
+        width: 95vw;
+}
     main {
         width: 100%;
         padding: 10px;
