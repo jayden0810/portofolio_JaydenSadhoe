@@ -10,7 +10,6 @@ header {
     align-items: center;
     z-index: 1000;
     color: rgb(255, 255, 255);
- 
 }
 
 nav {
@@ -47,7 +46,6 @@ header a{
 }
 body {
     background-color: #C1F5F9;
-
 }
 .sectionmain {
     padding: 50px 0;
@@ -78,8 +76,7 @@ body {
     align-items: center;
 }
 #section1 {
-
-    margin-top: 150px;  
+  margin-top: 150px;  
     display: grid;
     grid-template-columns: none auto auto;
     color: rgb(0, 0, 0);
@@ -89,10 +86,9 @@ body {
         -1px  1px 0 #623bff,
         1px  1px 0 #3a0bf4,
     font-size: 1.2rem;
-
 }
 #section2 {
-    margin-top: 150px;
+  margin-top: 150px;  
     display: grid;
     grid-template-columns: none auto auto;
     color: rgb(0, 0, 0);
@@ -104,7 +100,7 @@ body {
     font-size: 1.2rem;
 }
 #section3 {
-    margin-top: 150px;
+  margin-top: 150px;  
     display: grid;
     grid-template-columns: none auto auto;
     color: rgb(0, 0, 0);
@@ -113,7 +109,7 @@ body {
         1px -1px 0 #623bff,
         -1px  1px 0 #623bff,
         1px  1px 0 #3a0bf4,
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 #section4 {
 
@@ -128,11 +124,10 @@ body {
 footer {
     background-color: #004D90;
     margin-top: 15vh;
-    padding: 5px -90px;
     bottom: 0;
     width: 100vw;
     color: white;
-    height: 50vh;
+    height: 25vh;
 }
 
 /* Responsive Design */
